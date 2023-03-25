@@ -1,0 +1,90 @@
+body { 
+	height: 1430px;
+	width: 1488px;
+	background-color: #e5e5e5;
+}
+
+button{
+	cursor: pointer;
+	border: none;
+}
+
+
+.BLOK_148 { 
+	/* position: absolute; */
+	width: 1440px;
+	height: 990px;
+	left: 24px;
+	top: 228px;
+	margin: 228px 24px 212px;
+}
+
+.b_146 {
+	padding: 0;
+	margin: 0;
+}
+
+.a01_li {
+	display: flex;
+	align-items: center;
+	padding-left: 135px;
+	padding-right: 105px;
+	background-color: #0b2239;
+	height: 72px;
+	margin-bottom: 24px;
+}
+
+.Frame72 {
+	color: #ffffff;
+	width: 900px;
+	/* height: 40px; */
+	font-style: normal;
+	font-weight: 400;
+	/* font-size: 13px; */
+	line-height: 20px;
+	/* padding-top: 12px;
+	padding-bottom: 20px; */
+	/* margin: 0px; */
+}
+.Frame73_Cookie_Setting {
+	padding: 8px 10px;
+	width: 106px;
+	/* height: 36px;  */
+	margin-left: 32px;
+	color: #4ad295;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 20px;
+	/* text-decoration: none; */
+	/* align-items: center;  */
+}
+
+.Frame73_button_Accept_All_Cookies {
+	width: 130px;
+	height: 36px;
+	margin-left: 10px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ffffff;
+	background-color: #4ad295;
+}
+
+.a02 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #2b2627;
+	height: 52px;
+}
+
+.Frame93 {
+	margin: 0;
+	margin-left: 8px;
+}
+
+.image10 {
+	margin-left: 20px;
+}
