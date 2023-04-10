@@ -1,166 +1,303 @@
 @import url(./normalize.css);
 
-body{
-	/* max-width: 100%; */
-	/* margin: 0 auto; */
-	/* position: relative; */
-	/* width: 1440px; */
-	/* height: 4077px; */
-	background: #F6F6F6;
+body {
+  margin: 0 auto;
+  /* display: grid; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* max-width: 100%; */
+  /* margin: 0 auto; */
+  /* position: relative; */
+  /* width: 1440px; */
+  /* height: 4077px; */
+  background: #f6f6f6;
 }
 
-nav{
-	background: #FFFFFF;
-	display: grid;
-	justify-items: center;
-	align-items: center;
-	/* grid-template-rows: 1fr 1fr 1fr; */
-	grid-template-columns: 1fr 1fr 1fr;
-	/* grid-template-areas: */
-	/* "item1 item2 item3 " */
-	/* display: flex; */
-	/* width: 1440px; */
-	/* height: 153px; */
+header {
+  max-width: 1440px;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  /* position: relative; */
+  /* padding-left: -163px; */
+  /* display: grid; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
-.header-Lady_shop{ 
-	/* display: grid; */
-	/* grid-template-columns: 1fr 1fr 1fr; */
-	/* grid-template-rows: 1fr 1fr 1fr; */
-	/* display: flex; */
-	/* width: 109px; */
-	/* height: 41px; */
-	font-family: 'Rochester';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 32px;
-	line-height: 41px;
-	color: #1B2437;
-	text-decoration: none;
-	
+nav {
+  display: flex;
+  background: #ffffff;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1440px;
+  /* display: grid; */
+  /* justify-items: center; */
+  /* align-items: center; */
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* grid-template-areas: */
+  /* "item1 item2 item3 " */
+  /* display: flex; */
+  /* width: 1440px; */
+  /* height: 153px; */
 }
 
-.header-Lady_shop:hover{
-	color: red;
+.nav-2block-oll {
+  /* width: 1440px; */
+  /* max-width: 1440px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
 }
 
-.header-social>a{
-	margin-right: 40px;
-	/* display: flex; */
-	/* justify-content: center; */
-	/* align-items: center; */
+.header-Lady_shop {
+  /* height: 100%; */
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  /* display: flex; */
+  /* width: 109px; */
+  /* height: 41px; */
+  font-family: "Rochester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  color: #1b2437;
+  text-decoration: none;
 }
 
-.header-search>a{
-	/* display: flex; */
-	/* display: grid; */
-	/* justify-items: end; */
-	margin-right: 40px;
-	/* float: right; */
-	/* justify-content: end; */
+.header-Lady_shop:hover {
+  color: red;
 }
 
-hr{
-	/* background: #F3F3F3; */
-	opacity: 0.2;
-	height: 1px;
+.header-social > a {
+  margin-right: 40px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
 }
 
-.nav-2b-oll{
-	/* position: relative; */
-	/* display: flex; */
-	/* justify-items: center; */
-	/* align-items: center; */
-	background: #FFFFFF;
-	/* display: grid; */
-	/* grid-template-rows: 1fr 1fr 1fr 1fr; */
-	/* grid-template-columns: 1fr 1fr 1fr 1fr; */
+.header-search > a {
+  /* display: flex; */
+  /* display: grid; */
+  /* justify-items: end; */
+  margin-right: 40px;
+  /* float: right; */
+  /* justify-content: end; */
 }
 
-.nav-2b{
-	/* position: relative; */
-	/* display: flex; */
-	/* justify-content: center; */
-	/* align-items: center; */
-	/* display: grid; */
-	/* grid-gap: 80px; */
-	/* width: 112px; */
-	font-family: 'Playfair Display';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 28px;
-	line-height: 37px;
-	color: #000000;
-	text-decoration: none;
-	/* margin-left: 80px; */
-	margin-right: 40px;
+hr {
+  background: #f3f3f3;
+  margin: 0px;
+  opacity: 0.2;
+  /* height: 1px; */
 }
 
-
-main{
-	/* width: 1439px; */
-	/* height: 569px; */
+.nav-2b-oll {
+  display: flex;
+  /* width: 1440px; */
+  /* justify-items: center; */
+  /* align-items: center; */
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 
-.Admire-Stylish{
-	max-width: 1439px;
-	height: 569px;
-	background: url(./img/hero.png);
+.nav-2b-oll > li {
+  margin-right: 80px;
+}
+
+.nav-2b {
+  /* position: relative; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* display: grid; */
+  /* grid-gap: 80px; */
+  /* width: 112px; */
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 37px;
+  color: #000000;
+  text-decoration: none;
+  /* margin-left: 80px; */
+  margin-right: 40px;
+}
+
+main {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1100px;
+  /* height: 569px; */
+}
+
+.Admire-Stylish {
+  /* max-width: 1439px; */
+  height: 569px;
+  background: url(./img/hero.png);
+  background-repeat: no-repeat;
+  margin-bottom: 70px;
+  background-size: cover;
 }
 /* 2block */
 
-.main-oll-block{
-	/* display: flex; */
+.main-oll-block {
+  /* display: flex; */
 }
 
-.main-top-block{
-	/* display: grid; */
-	display: flex;
-	gap: 30px;
+.main-top-block {
+  /* display: grid; */
+  /* grid-template-columns: 445px; */
+  /* grid-template-rows: 458px; */
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* gap: 30px; */
 }
 
-.Women-Collection{
-	/* display: flex; */
-	width: 445px;
-	height: 458px;
-	background: url(./img/women_collection_category.png);
-	background-repeat: no-repeat;
-	border-radius: 16px;
+.Women-Collection {
+  background: url(./img/women_collection_category.png);
+  background-repeat: no-repeat;
+  /* width: 445px; */
+  height: 458px;
+  /* display: grid; */
+  /* grid-template-columns: 445px; */
+  /* grid-template-rows: 458px; */
+  display: flex;
+
+  /* background-repeat: no-repeat; */
+  /* border-radius: 16px; */
 }
 
-.main-grey-block{
-	width: 303px;
-	height: 225px;
-	/* left: 640px; */
-	/* top: 792px; */
-	background: #EFEFF4;
-	border-radius: 16px;
+.Women-Collection > h2 {
+  width: 288px;
+  height: 90px;
+  /* left: 195px;
+	top: 1061px; */
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 45px;
+  color: #ffffff;
 }
 
-.main-violet-block{
-	width: 302px;
-	height: 225px;
-	background: url(./img/dresses_category.png);
+.Women-Collection > p {
+  width: 288px;
+  height: 30px;
+  /* left: 195px; */
+  /* top: 1151px; */
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  /* display: flex; */
 }
 
-.main-pink-block{
-	width: 635px;
-	height: 204px;
-	background: url(./img/denim_jackets_category.png);
-	border-radius: 16px;
+.main-grey-block {
+  display: grid;
+  grid-template-columns: 303px;
+  grid-template-rows: 225px;
+  /* width: 303px; */
+  /* height: 225px; */
+  /* left: 640px; */
+  /* top: 792px; */
+  background: #efeff4;
+  border-radius: 16px;
 }
 
-.main-botom-block{
-	
+.main-violet-block {
+  display: grid;
+  grid-template-columns: 302px;
+  grid-template-rows: 225px;
+  width: 302px;
+  height: 225px;
+  background: url(./img/dresses_category.png);
 }
 
-
-
-
-.footer-end{
-	display: flex;
+.main-pink-block {
+  display: grid;
+  grid-template-columns: 635px;
+  grid-template-rows: 204px;
+  width: 635px;
+  height: 204px;
+  background: url(./img/denim_jackets_category.png);
+  border-radius: 16px;
+  position: relative;
+  left: -570px;
+  bottom: -250px;
 }
 
-.footer-social>a{
-	margin-right: 40px;
+.main-botom-block {
+  display: flex;
+  gap: 30px;
+  width: 1110px;
+  height: 313px;
+  /* left: 165px; */
+  /* top: 1281px; */
+  background: #ffffff;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.main-botom-block > div > img {
+  /* width: 255px; */
+  height: 207px;
+  /* top: 0; */
+  /* left: 0; */
+  /* width: 100%; */
+}
+
+.footer-end {
+  display: flex;
+}
+
+.footer-social > a {
+  margin-right: 40px;
+}
+
+/* 3block */
+
+.bl3-oll {
+}
+
+.bl3-oll > h2 {
+  width: 274px;
+  height: 67px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 67px;
+  color: #1b2437;
+}
+
+.bl3-You-may-like {
+  display: flex;
+}
+
+.Womens-black-vest-Gucci {
+  /* width: 325px; */
+  /* height: 30px; */
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.popular-button {
+  height: 36px;
+  margin-top: 200px;
 }
