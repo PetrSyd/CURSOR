@@ -1,7 +1,8 @@
 @import url(./normalize.css);
 
 body {
-  margin: 0 auto;
+  /* max-height: 100vw; */
+  /* margin: 0 auto; */
   /* display: grid; */
   /* justify-content: center; */
   /* align-items: center; */
@@ -14,11 +15,11 @@ body {
 }
 
 header {
-  max-width: 1440px;
-  background-position: center;
-  background-size: cover;
-  margin-left: auto;
-  margin-right: auto;
+  /* max-width: 100%; */
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   /* position: relative; */
   /* padding-left: -163px; */
   /* display: grid; */
@@ -31,7 +32,7 @@ nav {
   background: #ffffff;
   align-items: center;
   justify-content: space-around;
-  max-width: 1440px;
+  /* max-width: 100%; */
   /* display: grid; */
   /* justify-items: center; */
   /* align-items: center; */
@@ -45,14 +46,12 @@ nav {
 }
 
 .nav-2block-oll {
-  /* width: 1440px; */
-  /* max-width: 1440px; */
+  /* max-width: 100rem; */
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+  /* align-items: space-between; */
   background: #ffffff;
+  align-items: center;
 }
 
 .header-Lady_shop {
@@ -70,18 +69,26 @@ nav {
   line-height: 41px;
   color: #1b2437;
   text-decoration: none;
+  /* display: flex; */
 }
 
 .header-Lady_shop:hover {
   color: red;
 }
 
+svg:hover{
+  cursor: pointer;
+  background-color: red;
+  /* color: red; does not work*/
+}
+
 .header-social > a {
   margin-right: 40px;
   /* display: flex; */
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
+
 
 .header-search > a {
   /* display: flex; */
@@ -101,21 +108,25 @@ hr {
 
 .nav-2b-oll {
   display: flex;
-  /* width: 1440px; */
+  /* width: 100%; */
   /* justify-items: center; */
   /* align-items: center; */
   margin: 0px;
   padding: 0px;
   list-style: none;
+  /* gap: 5rem; */
 }
 
 .nav-2b-oll > li {
-  margin-right: 80px;
+  /* display: inline-block; */
+  /* justify-content: space-around; */
+  margin-right: 4vw;
 }
 
 .nav-2b {
   /* position: relative; */
   /* display: flex; */
+  /* display: block; */
   /* justify-content: center; */
   /* align-items: center; */
   /* display: grid; */
@@ -129,35 +140,85 @@ hr {
   color: #000000;
   text-decoration: none;
   /* margin-left: 80px; */
-  margin-right: 40px;
+  /* margin-right: 40px; */
+}
+.nav-2b:hover {
+  color: red;
 }
 
 main {
   margin-right: auto;
   margin-left: auto;
-  max-width: 1100px;
+  max-width: 80%;
   /* height: 569px; */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .Admire-Stylish {
-  /* max-width: 1439px; */
-  height: 569px;
+  max-width: 100vw;
+  min-width: 1100px;
+  /* height: 569px; */
   background: url(./img/hero.png);
+  background-size: contain;
+  /* min-height: 10vh; */
+  /* max-height: 100vh; */
   background-repeat: no-repeat;
-  margin-bottom: 70px;
-  background-size: cover;
+  /* margin-bottom: 70px; */
+  /* background-size: cover; */
+  padding-top: 6.4vh;
+  padding-left: 10.25vw;
+  padding-bottom: 7.5vh;
+  /* margin: 0; */
+  /* padding: 0; */
 }
+.Admire-Stylish > h2 {
+  width: 361px;
+  /* height: 134px; */
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 67px;
+  color: #ffffff;
+}
+
+.Admire-Stylish > p {
+  width: 446px;
+  /* height: 90px; */
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.Admire-Stylish > button {
+  width: 255px;
+  height: 77px;
+  background: #1b2437;
+  border-radius: 15px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
 /* 2block */
 
 .main-oll-block {
+  /* display: grid; */
+  /* grid-template-columns: 445px 303px 303px; */
+  /* grid-template-rows: 458px; */
   /* display: flex; */
 }
 
 .main-top-block {
-  /* display: grid; */
-  /* grid-template-columns: 445px; */
-  /* grid-template-rows: 458px; */
-  display: flex;
+  /* display: flex; */
   /* justify-content: center; */
   /* align-items: center; */
   /* gap: 30px; */
@@ -165,21 +226,26 @@ main {
 
 .Women-Collection {
   background: url(./img/women_collection_category.png);
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   /* width: 445px; */
   height: 458px;
+  /* max-height: 458px; */
   /* display: grid; */
   /* grid-template-columns: 445px; */
   /* grid-template-rows: 458px; */
-  display: flex;
-
-  /* background-repeat: no-repeat; */
+  /* display: flex; */
+  background-repeat: no-repeat;
   /* border-radius: 16px; */
 }
 
+.popular-button {
+  /* height: 36px; */
+  /* margin-top: 200px; */
+}
+
 .Women-Collection > h2 {
-  width: 288px;
-  height: 90px;
+  /* width: 288px; */
+  /* height: 90px; */
   /* left: 195px;
 	top: 1061px; */
   font-family: "Playfair Display";
@@ -191,8 +257,8 @@ main {
 }
 
 .Women-Collection > p {
-  width: 288px;
-  height: 30px;
+  /* width: 288px; */
+  /* height: 30px; */
   /* left: 195px; */
   /* top: 1151px; */
   font-family: "Mulish";
@@ -204,71 +270,112 @@ main {
   /* display: flex; */
 }
 
+.main-Women-Collection1 {
+  /* display: grid; */
+  /* grid-template-columns: 303px 303px; */
+}
+
 .main-grey-block {
-  display: grid;
-  grid-template-columns: 303px;
-  grid-template-rows: 225px;
+  /* display: grid; */
+  /* grid-template-columns: 303px; */
+  /* grid-template-rows: 225px; */
   /* width: 303px; */
   /* height: 225px; */
   /* left: 640px; */
   /* top: 792px; */
   background: #efeff4;
   border-radius: 16px;
+  /* background-repeat: no-repeat; */
 }
 
 .main-violet-block {
-  display: grid;
-  grid-template-columns: 302px;
-  grid-template-rows: 225px;
-  width: 302px;
-  height: 225px;
+  /* display: grid; */
+  /* grid-template-columns: 302px; */
+  /* grid-template-rows: 225px;   */
   background: url(./img/dresses_category.png);
+  /* width: 302px; */
+  /* height: 225px; */
 }
 
 .main-pink-block {
-  display: grid;
-  grid-template-columns: 635px;
-  grid-template-rows: 204px;
-  width: 635px;
-  height: 204px;
+  /* display: grid; */
+  /* grid-template-columns: 635px; */
+  /* grid-template-rows: 204px; */
+  /* width: 635px; */
+  /* height: 204px; */
   background: url(./img/denim_jackets_category.png);
   border-radius: 16px;
-  position: relative;
-  left: -570px;
-  bottom: -250px;
+  /* position: relative; */
+  /* left: -570px; */
+  /* bottom: -250px; */
 }
 
 .main-botom-block {
-  display: flex;
-  gap: 30px;
-  width: 1110px;
-  height: 313px;
+  display: grid;
+  grid-template-columns: 255px 255px 255px 255px;
+  grid-template-rows: 207px;
+  /* gap: 30px; */
+  /* display: flex; */
+  /* gap: 30px; */
+  /* width: 1110px; */
+  /* height: 313px; */
   /* left: 165px; */
   /* top: 1281px; */
   background: #ffffff;
   border-radius: 16px;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  /* justify-content: space-around; */
 }
 .main-botom-block > div > img {
   /* width: 255px; */
-  height: 207px;
+  /* height: 207px; */
   /* top: 0; */
   /* left: 0; */
   /* width: 100%; */
 }
 
 .footer-end {
+  /* height: 74px; */
   display: flex;
+  /* display: block; */
+  justify-content: space-evenly;
+  align-items: center;
+  background: #e5e5ea;
+  width: 100%;
+  height: 74px;
 }
 
-.footer-social > a {
+.footer-end > div > a {
   margin-right: 40px;
 }
 
 /* 3block */
 
+footer {
+  display: flex;
+  width: 100%;
+  /* height: 333px; */
+  background: #ffffff;
+}
+
+footer > ul {
+}
+
+.Fashion-is {
+  display: block;
+  width: 255px;
+  /* height: 180px; */
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #5c5c5c;
+}
+
 .bl3-oll {
+  /* margin-top: 70px; */
 }
 
 .bl3-oll > h2 {
@@ -283,7 +390,10 @@ main {
 }
 
 .bl3-You-may-like {
-  display: flex;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: 487px;
 }
 
 .Womens-black-vest-Gucci {
@@ -297,7 +407,17 @@ main {
   color: #000000;
 }
 
-.popular-button {
-  height: 36px;
-  margin-top: 200px;
+.map {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 1086px;
+  height: 511px;
+  background-image: url(./img/Rectangle\ 78.png);
+}
+
+.map > img {
+  display: block;
+  margin-left: 430px;
+  padding-top: 255px;
 }
