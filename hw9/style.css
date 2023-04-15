@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic");
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic");
+@import url("https://fonts.cdnfonts.com/css/product-sans");
+
+body {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 100%;
+  /* height: 100%; */
+}
+
+/* first */
+
+.first-oll {
+  background: #f4f6f9 url(./img/section1/smartphone-background.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-left: 160px;
+  background-size: contain;
+  height: 665px;
+  /* width: 100%; */
+  /* height: 100%; */
+}
+
+.first-logo {
+}
+
+.logo {
+  display: flex;
+  padding-top: 3.75rem;
+  margin-bottom: 8.125rem;
+}
+.logo > p {
+  font-family: "Product Sans";
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  color: #5282f0;
+  position: relative;
+  top: -25px;
+}
+
+.first-text > h2 {
+  width: 546px;
+  /* height: 96px; */
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  /* display: flex; */
+  align-items: flex-end;
+  letter-spacing: 0.03em;
+  color: #333333;
+}
+.first-text > h3 {
+  width: 453px;
+  /* height: 52px; */
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #4f4f4f;
+}
+
+/* button */
+.button-first {
+  display: flex;
+  margin-top: 3.125rem;
+  gap: 2.1875rem;
+}
+
+button {
+  background: #000000;
+  border: none;
+  border-radius: 0.4584rem;
+  width: 9.7531rem;
+  height: 2.9375rem;
+  font-family: "Roboto";
+  font-style: normal;
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+
+}
+.button-text>h3 {
+  /* box-sizing: border-box; */
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  /* align-items: flex-end; */
+  margin: 0;
+
+}
+.button-text > p {
+	margin: 0;
+  font-weight: 500;
+  font-size: 1.3295rem;
+  line-height: 1.5625rem;
+  /* display: flex; */
+  /* align-items: flex-end; */
+  /* color: #ffffff; */
+}
+
+.google-play {
+  font-weight: 400;
+  font-size: 11.0025px;
+  line-height: 13px;
+}
+.GP-text>h3{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+/* font-size: 11.0025px; */
+/* line-height: 13px; */
+/* display: flex; */
+/* align-items: flex-end; */
+/* color: #FFFFFF; */
+margin: 0;
+/* padding: 10px; */
+/* height: 2.9375rem; */
+
+}
+.GP-text > p {
+	font-family: 'Roboto';
+	font-style: normal;
+	margin: 0;
+/* padding: 0; */
+  font-weight: 300;
+  font-size: 17.6041px;
+  line-height: 21px;
+  margin-left: 20px;
+}
+
+.GP-logo {
+  /* display: flex; */
+}
