@@ -140,3 +140,117 @@ margin: 0;
 .GP-logo {
   /* display: flex; */
 }
+
+/* second */
+
+.second-oll{
+  width: 100vw;
+  /* background: url(./img/section2/Rectangle-background.png); */
+  /* background: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5) url(./img/section2/Rectangle-background.png); */
+  /* width: 1440px; */
+  display: flex;
+
+}
+.second-left{
+  width: 50.3125rem;
+  height: 592px;
+    background: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5) url(./img/section2/Rectangle-background.png) 
+    /* url(./img/section2/Rectangle-video.png)  */
+    ;
+      background-position: left;
+  background-repeat: no-repeat;
+  /* height: 592px; */
+  /* display: flex; */
+
+}
+.football-photo-video{
+  /* margin-bottom: 75px; */
+    /* padding-left: 14vw; */
+  /* padding-top: -10vh; */
+}
+.Arsenal-Chelsea{
+    width: 535px;
+height: 425px;
+  background-image: url(./img/section2/Group\ 717.png);
+  background-repeat: no-repeat;
+  margin-left: 100px;
+  margin-top: 80px;
+
+
+  /* display: block; */
+  /* position: relative; */
+  /* box-sizing: border-box; */
+  /* width: 360px; */
+  /* height: 218.06px; */
+  /* background: #FFFFFF; */
+  /* box-shadow: -22.0416px 23.8785px 48.9814px rgba(0, 0, 0, 0.5); */
+  /* border-radius: 4px; */
+  /* margin-left: 7vw; */
+  /* margin-top: 10vh; */
+}
+
+/* .football-photo{
+  width: 360px;
+height: 218.06px;
+/* background: url(./img/section2/Rectangle-video.png); */
+/* background-image: url(./img/section2/Rectangle-video.png); */
+border-radius: 4px;
+/* display: block; */
+  /* position: relative; */
+  /* padding-left: 14vw; */
+  /* padding-top: -10vh; */
+
+
+.second-right>ul>li{
+  list-style-type: none;
+}
+.WHAT-IT{
+
+  width: 582px;
+height: 22px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+color: #00ADEE;
+ padding-top: 130px;
+}
+
+.An-Enhanced{
+  width: 426px;
+height: 37px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 37px;
+color: #333333;
+ padding-top: 30px;
+}
+
+.The-Guardian-Live{
+  width: 407px;
+height: 185px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color: #4F4F4F;
+ padding-top: 30px;
+
+}
+
+.Learn-more{
+  width: 582px;
+height: 22px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+color: #00ADEE;
+ padding-top: 20px;
+
+}
