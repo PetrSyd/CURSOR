@@ -1,0 +1,44 @@
+
+
+.row>div{
+	border: solid 1px red;
+	/* width: 297px; */
+/* height: 297px; */
+/* left: 255px; */
+/* top: 551px; */
+/* background: url(./img/Rectangle\ 70.png); */
+/* linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  */
+
+}
+
+
+.text-center{
+	display: block;
+	text-align: center;
+}
+.POSTS{
+	text-decoration: none;
+	font-family: 'Helvetica Neue';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+	/* display: flex; */
+	/* align-items: center; */
+	letter-spacing: 0.09em;
+	color: #262626;
+}
+.TAGGED{
+	text-decoration: none;
+	/* width: 55px; */
+	/* height: 15px; */
+	font-family: 'Helvetica Neue';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+	/* display: flex; */
+	/* align-items: center; */
+	/* letter-spacing: 0.09em; */
+	color: #8F8F8F;
+}
