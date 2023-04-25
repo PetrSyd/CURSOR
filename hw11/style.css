@@ -44,11 +44,6 @@ main {
 
 section {
   padding: 1rem;
-  /* display: flex; */
-}
-
-main > div {
-  /* padding-left: 8rem; */
 }
 
 .main-right {
@@ -92,45 +87,45 @@ main > div {
   margin-right: 8px;
   border: none;
 }
-.point{
-	height: 35px;
-	  text-decoration: none;
+.point {
+  height: 35px;
+  text-decoration: none;
   color: #262626;
   font-size: 15px;
   /* position: relative; */
-	/* width: 4px; */
-	/* display: flex; */
-	/* text-align: center; */
-	/* align-items: center; */
-	/* justify-content: center; */
-	  /* height: 100%; */
-	  /* top: -20px; */
+  /* width: 4px; */
+  /* display: flex; */
+  /* text-align: center; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* height: 100%; */
+  /* top: -20px; */
 }
 
-.follow{
-	display: flex;
-	gap: 35px;
-	font-family: 'Helvetica Neue';
-	font-style: normal;
-	font-weight: 100;
-	font-size: 17px;
-	line-height: 21px;
-	/* align-items: center; */
-	color: #262626;
+.follow {
+  display: flex;
+  gap: 35px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 17px;
+  line-height: 21px;
+  /* align-items: center; */
+  color: #262626;
 }
-.follows{
-	padding-bottom: 50px;
+.follows {
+  padding-bottom: 50px;
 }
-.follows>p{
-	margin: 0;
-	width: 530px;
-	/* height: 50px; */
-	color: #262626;
+.follows > p {
+  margin: 0;
+  width: 530px;
+  /* height: 50px; */
+  color: #262626;
 }
-
 
 .circl {
-	height: 250px;
+  
+  height: 250px;
   display: flex;
 }
 
@@ -140,7 +135,8 @@ main > div {
 }
 
 .circle {
-  width: 153px;
+  max-width: 153px;
+  /* width: 153px; */
   border-radius: 50%;
   margin-right: 5.5rem;
   margin-bottom: 5.5rem;
@@ -186,13 +182,12 @@ main > div {
 }
 /* main */
 
-
 .text-center {
   display: block;
   text-align: center;
 }
 .POSTS {
-	/* width: 100%; */
+  /* width: 100%; */
   text-decoration: none;
   font-family: "Helvetica Neue";
   font-style: normal;
