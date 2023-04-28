@@ -118,7 +118,7 @@ header {
   text-align: center;
   color: #FFFFFF;
   width: 189px;
-  height: 26px;
+  height: 36px;
   margin-right: 30px;
 }
 
@@ -133,7 +133,7 @@ header {
   text-align: center;
   color: #091133;
   width: 189px;
-  height: 26px;
+  height: 36px;
 }
 
 .two {
@@ -243,6 +243,7 @@ header {
   color: #FFFFFF;
   width: 135px;
   height: 32px;
+  margin-top: 40px;
 }
 
 .six {
@@ -268,7 +269,7 @@ header {
   text-align: center;
   letter-spacing: 1px;
   color: #222F65;
-  margin: 0;
+  margin: 30px 0 0 0;
 }
 
 .ui {
@@ -392,6 +393,12 @@ hr {
   display: -ms-flexbox;
   display: flex;
   gap: 60px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #929ECC;
 }
 
 .foot-icon img:not(:last-child) {
