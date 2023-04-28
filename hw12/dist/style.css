@@ -36,15 +36,9 @@ header {
 }
 
 .header1-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 .header1-container ul li a {
   font-family: "Roboto";
@@ -179,8 +173,6 @@ header {
 }
 
 .two-bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }
@@ -307,15 +299,9 @@ header {
 footer {
   height: 215px;
   background: #E7ECFF;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .foot-oll {
@@ -323,15 +309,9 @@ footer {
 }
 
 .foot-conpany {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .land {
@@ -365,15 +345,9 @@ footer {
 }
 
 footer section {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .foot-conpany button {
@@ -388,8 +362,6 @@ hr {
 }
 
 .three-p {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 60px;
 }

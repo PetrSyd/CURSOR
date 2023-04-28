@@ -1,31 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap')
 
 body
-	margin: 0
+	margin: 0 auto
 	padding: 0
-	// max-width: 100%
-	// display: block
-	// justify-content: center
+	position: relative
+	max-width: 1440px
+
+.title
+	font-family: 'Roboto'
+	font-style: normal
+	font-weight: 500
+	font-size: 36px
+	line-height: 48px
+	color: #091133
+	margin: 0
+
+.text
+	font-family: 'Roboto'
+	font-style: normal
+	font-weight: 400
+	font-size: 16px
+	line-height: 26px
+	color: #6F7CB2
+	margin: 0
 
 // header
 
 header
-	// max-width: 100%
-	// height: 1100px
-	// margin-top: 15px
+	height: 1100px
 	background: url(./img/background/header.svg) 100% no-repeat
-	// background-image: url(./img/background/header.svg)
-	// background-image: url(./img/background/Group\ header.png)
 
 .header1-container
 	ul
 		li
 			list-style: none
-			// display: flex
 
 .header1-container
 	display: flex
-	justify-content: space-around
+	justify-content: space-between
 	align-items: center
 	ul
 		li
@@ -60,10 +72,10 @@ header
 		border-radius: 2px
 		width: 160px
 		height: 26px
+		margin-right: 220px
 
 .header2-container
 	padding-top: 300px
-	margin-left: 150px
 
 .header2-container
 	h2
@@ -75,7 +87,7 @@ header
 		letter-spacing: 1px
 		color: #091133
 		width: 539px
-	// height: 132px
+		margin-bottom: 20px
 
 .header2-container
 	p
@@ -86,7 +98,7 @@ header
 		line-height: 30px
 		color: #505F98
 		width: 539px
-	// height: 164px
+		margin-bottom: 70px
 
 .hed-butt1
 	background: #111B47
@@ -100,6 +112,7 @@ header
 	color: #FFFFFF
 	width: 189px
 	height: 26px
+	margin-right: 30px
 
 .hed-butt2
 	border: 2px solid #091133
@@ -116,34 +129,248 @@ header
 
 // main
 
-main
-	padding-left: 165px
+.two
+	background: url(./img/1undraw_mobile_login_ikmv.png) 100% no-repeat
+	height: 650px
+	// margin-top: 160px
+
+.two-top
+	padding-top: 160px
 
 .two
-	background: url(./img/2-undraw_happy_news_hxmt.svg) 100% no-repeat
-	// width:1440px
+	div
+		p
+			font-family: 'Roboto'
+			font-style: normal
+			font-weight: 400
+			font-size: 16px
+			line-height: 26px
+			color: #6F7CB2
+			max-width: 540px
 
-.two
-	h2
+.two-bottom
+	padding-top: 80px
+
+.two-bottom
+	div
+		h3
+			font-family: 'Roboto'
+			font-style: normal
+			font-weight: 500
+			font-size: 16px
+			line-height: 26px
+			color: #091133
+
+.two-bottom
+	div
+		p
+			font-family: 'Roboto'
+			font-style: normal
+			font-weight: 400
+			font-size: 12px
+			line-height: 18px
+			color: #5D6970
+			width: 235px
+
+.two-bottom
+	display: flex
+	gap: 30px
+
+// three
+
+.three
+	height: 570px
+	background: url(./img/2-undraw_happy_news_hxmt.svg) left 100% no-repeat
+
+.three
+	div
+		float: right
+		padding-right: 160px
+		margin-top: 250px
+
+.three
+	div
+		p
+			width: 445px
+
+// four
+
+.four
+	height: 570px
+	background: url(./img/3-undraw_social_influencer_sgsv.svg) left 100% no-repeat
+
+.four
+	div
+		float: right
+		padding-right: 160px
+		margin-top: 250px
+
+.four
+	div
+		p
+			width: 445px
+
+// five
+
+.five
+	height: 570px
+	background: url(./img/4-undraw_mention_6k5d.svg) left 100% no-repeat
+	margin-bottom: 180px
+
+.five
+	div
+		float: right
+		padding-right: 160px
+		margin-top: 250px
+
+.five
+	div
+		p
+			width: 445px
+
+.five
+	button
+		background: #111B47
+		border-radius: 2px
 		font-family: 'Roboto'
 		font-style: normal
 		font-weight: 500
-		font-size: 36px
-		line-height: 48px
-		color: #091133
-.two
+		font-size: 14px
+		line-height: 24px
+		text-align: center
+		color: #FFFFFF
+		width: 135px
+		height: 32px
+
+// six
+.six
+	width: 100%
+	height: 570px
+	background: url(./img/background/Rectangle.svg) no-repeat
+	text-align: center
+	padding-top: 230px
+
+.six
 	p
-		ont-family: 'Roboto'
-		font-style: normal
-		font-weight: 400
-		font-size: 16px
-		line-height: 26px
-		color: #6F7CB2
-		max-width: 540px
+		margin-left: auto
+		margin-right: auto
+		width: 550px
 
-	.two
-	img
-
-.two
+.six
 	h3
-		color: #00ff62
+		font-family: 'Roboto'
+		font-style: normal
+		font-weight: 500
+		font-size: 50px
+		line-height: 66px
+		text-align: center
+		letter-spacing: 1px
+		color: #222F65
+		margin: 0
+
+.ui
+	font-family: 'Roboto'
+	font-style: normal
+	font-weight: 400
+	font-size: 16px
+	line-height: 26px
+	color: #37447E
+	margin: 0
+	margin-bottom: 60px
+
+.see
+	font-family: 'Roboto'
+	font-style: normal
+	font-weight: 400
+	font-size: 14px
+	line-height: 24px
+	color: #5D6970
+
+.sect-tour-butt
+	font-family: 'Roboto'
+	font-style: normal
+	font-weight: 500
+	font-size: 14px
+	line-height: 24px
+	color: #FFFFFF
+	background: #111B47
+	border-radius: 2px
+	width: 189px
+	height: 32px
+
+// footer
+
+footer
+	height: 215px
+	background: #E7ECFF
+	display: flex
+	justify-content: center
+	align-items: center
+
+.foot-oll
+	width: 80%
+
+.foot-conpany
+	display: flex
+	justify-content: space-between
+	align-items: center
+
+.land
+	font-family: 'Roboto'
+	font-style: normal
+	font-weight: 900
+	font-size: 26px
+	line-height: 38px
+	color: #37447E
+
+.foot-button
+	background: #111B47
+	border-radius: 2px
+	font-family: 'Roboto'
+	font-style: normal
+	font-weight: 500
+	font-size: 12px
+	line-height: 18px
+	text-align: center
+	color: #FFFFFF
+
+.company
+	font-family: 'Roboto'
+	font-style: normal
+	font-weight: 500
+	font-size: 14px
+	line-height: 24px
+	color: #939EA4
+
+footer
+	section
+		display: flex
+		justify-content: space-between
+		align-items: center
+		// margin: 0 50px
+
+
+.foot-conpany
+	button
+		width: 109px
+		height: 26px
+
+hr
+	// width: 1100px
+	height: 1px
+	// border: 0
+	margin: 10
+	opacity: 0.25
+	// background: #CDD1D4
+	// background-color: #CDD1D4
+	// color: #CDD1D4
+
+.three-p
+	display: flex
+	// justify-content: space-around
+	// align-items: center
+	gap: 60px
+
+.foot-icon
+	img:not(:last-child)
+		margin-right: 30px
